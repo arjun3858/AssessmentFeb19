@@ -1,0 +1,11 @@
+1.Publish the folder
+2. Add DockerSupport
+3. Open the terminal select developer command promt 
+4.Commands are a. docker build -t player-img -f "path/Dockerfile" .
+               b. docker images (to check the if the image has been added)
+               c. docker run -t --rm player-img
+5. Commands to push it to docker repository
+    docker tag player-img arjun2412/player-img 
+    docker push arjun2412/player-img
+
+6. Open Play with docker create an instance login with docker pull the reposiory and run it. 
